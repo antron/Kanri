@@ -1,0 +1,10 @@
+{
+    "name": "antron/kanri",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Antron\\Kanri\\": "src/"
+        }
+    }
+
+}
