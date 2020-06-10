@@ -3,7 +3,7 @@
  * 当日日付.
  */
 
-namespace Kanri;
+namespace Antron\Kanri;
 
 class Theday extends Aday
 {

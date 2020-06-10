@@ -1,9 +1,10 @@
 <?php
+
 /**
  * 日付配列.
  */
 
-namespace Kanri;
+namespace Antron\Kanri;
 
 class Getsu
 {
@@ -41,8 +42,12 @@ class Getsu
      * 
      * @param string $ymd yyyymm or yyyymmdd 基準日
      */
-    public function __construct($ymd)
+    public function __construct($ymd = '')
     {
+        if (!$ymd) {
+            $ymd = date("Ymd");
+        }
+
         $yyyy_mm_dd = substr($ymd, 0, 4) . '-' . substr($ymd, 4, 2);
 
         if (strlen($ymd) == 8) {

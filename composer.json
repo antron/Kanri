@@ -2,6 +2,9 @@
     "name": "antron/kanri",
     "require": {},
     "autoload": {
+        "classmap": [
+            "src"
+        ],
         "psr-4": {
             "Antron\\Kanri\\": "src/"
         }

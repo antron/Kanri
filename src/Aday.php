@@ -3,7 +3,7 @@
  * 「一日」を表現するクラス.
  */
 
-namespace Kanri;
+namespace Antron\Kanri;
 
 use Carbon\Carbon;
 
